@@ -1,6 +1,6 @@
 (import :scheme/base
 	:std/srfi/1)
-(export #t)
+(export crt)
 
 (define (mod-exp a n mod)
   (cond ((= n 0) 1)
